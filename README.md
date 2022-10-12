@@ -10,7 +10,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -27,10 +27,16 @@ Use this terminal command to install the package-lock.json file:
     npm install
 ```
 
-To install inquirer:
+To install Inquirer:
 
 ```
     npm install inquirer@8.2.4
+```
+
+To install Jest: 
+
+```
+    npm install jest
 ```
 
 ## Usage
@@ -88,7 +94,11 @@ SOFTWARE.
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Node.js
+
+- Inquirer version 8.2.4
+
+- Jest
 
 ## Tests
 
