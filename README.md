@@ -1,14 +1,11 @@
 # team-highdevils
 
-
 ## Description
 
 - This challenge served as a means of utilizing Object Oriented Programming and Test Driven Development.
 - This application runs with node.js commands to generate an html file with BootStrap styling to create a Team Profile Page.
 
 ## Table of Contents
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -43,7 +40,7 @@ Use this terminal command to run the application:
 ```
     node index.js
 ```
-
+Link to Demo Video: (https://drive.google.com/file/d/1Q6tDBfp_bMS476-ZqjLYVji-WsVJvQ3K/view)
 
 ## Credits
 
