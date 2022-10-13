@@ -25,6 +25,7 @@ const buildHTMLTemplate = (data) => {
   return generateTemplate(employeeCards);
 };
 
+// Generates Manager HTML card with passed in data from Inquirer Prompts
 const generateManagerHtml = (manager) => {
   return `
   <div class="card col-md-4 m-3 border shadow p-3 mb-5 bg-body rounded">
@@ -41,6 +42,7 @@ const generateManagerHtml = (manager) => {
   `;
 };
 
+// Generates Intern HTML card with passed in data from Inquirer Prompts
 const generateInternHtml = (intern) => {
   return `
   <div class="card col-md-4 m-3 border shadow p-3 mb-5 bg-body rounded">
@@ -58,6 +60,7 @@ const generateInternHtml = (intern) => {
 
 };
 
+// Generates Engineer HTML card with passed in data from Inquirer Prompts
 const generateEngineerHtml = (engineer) => {
   return `
   <div class="card col-md-4 m-3 border shadow p-3 mb-5 bg-body rounded">
@@ -74,6 +77,7 @@ const generateEngineerHtml = (engineer) => {
   `;
 };
 
+// Generates HTML document content with generated team members nested in main container
 const generateTemplate = (employeeCards) => {
   return `
 <!DOCTYPE html>

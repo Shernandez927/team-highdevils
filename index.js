@@ -168,5 +168,5 @@ const askEngineerQuestions = () => {
     });
 };
 
-// Calls the Manager questions prompt to initialize application, followed by adding team member
+// Calls the Manager questions prompt to initialize application
 askManagerQuestions();
